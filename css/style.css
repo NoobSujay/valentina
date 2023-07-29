@@ -1,0 +1,198 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:1320px;
+	margin:auto;
+}
+.clr{
+	clear:both;
+}
+ul,li{
+	list-style:none;
+	
+}
+a{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+}
+/* =======================================
+            nav part start
+============================================= */
+nav{
+	padding-bottom:15px;
+}
+nav .nav-logo{
+	width:20%;
+	float:left;
+	margin-top:25px;
+}
+nav .nav-item{
+	width:60%;
+	float:left;
+	margin-top:17px;
+}
+nav .nav-item ul li{
+	display:inline;
+	text-transform:capitalize;
+	margin:0px 20px;
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	font-weight:500;
+    color: #000;
+	cursor:pointer;
+	transition:.4s;
+}
+nav .nav-item ul li:hover{
+	color:#d50a51;
+}
+nav .nav-item ul li:first-child{
+	color: #d50a51;
+}
+nav .nav-button{
+	width:10%;
+	float:left;
+	border:1px solid #d50a51;
+	padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+	margin-top:20px;
+    background-color: transparent;
+    cursor: pointer;
+	text-align:center;
+	text-transform:capitalize;
+	transition:.4s;
+}
+nav .nav-button:hover{
+	background:#d50a51;
+	
+}
+nav .nav-button a{
+	color: #d50a51;
+}
+nav .nav-button:hover a{
+	color:#fff;
+}
+/* =======================================
+            nav part start
+============================================= */
+/* =======================================
+            banner part start
+============================================= */
+#banner-part{
+	    background: url(../images/banner.jpg) no-repeat ;
+		background-size:cover;
+		
+}
+.banner-img{
+	width:50%;
+	float:left;
+	text-align:left;
+	padding-top: 135px;
+}
+.banner-details{
+	width:40%;
+	float:left;
+	padding-top: 220px;
+    padding-bottom: 125px;
+	text-align:center;
+}
+.banner-details h4{
+	color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight:400;
+    margin-bottom: -28px;
+	
+}
+.banner-details h2{
+	font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+	font-weight:400;
+	
+}
+.banner-details p{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+	font-weight:400;
+	margin:0;
+}
+.banner-button {
+    width: 33%;
+    margin: auto;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    cursor:pointer;
+	transition:.4s;
+}
+.banner-button a{
+	color: #d50a51;
+}
+.banner-button:hover{
+	background:#d50a51;
+}
+.banner-button:hover a{
+	color:#fff;
+}
+/* =======================================
+            banner part end
+============================================= */
+/* =======================================
+            history part start
+============================================= */
+#history-part{
+	padding:100px 0;
+	
+}
+.history-img{
+	float:left;
+	width:50%;
+}
+.history-details{
+	float:left;
+	width:39%;
+}
+.history-details .title {
+	padding-top:23px;
+	padding-left:48px;
+}
+.history-details .title h3{
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color:#444;
+	font-size:700;
+	text-transform:capitalize;
+}
+.history-details .title h2{
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color:#d50a51;
+	font-size:700;
+	text-transform:capitalize;
+}
+.history-details p{
+	font-family:'open Sans', sans-serif;
+	font-size:16px;
+	color:#444;
+	line-height:26px;
+	margin:20px 0;
+}
+
+/* =======================================
+            history part end
+============================================= */
